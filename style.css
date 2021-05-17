@@ -1,0 +1,153 @@
+body {
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+#navbar li {
+    text-decoration: none;
+    list-style-type: none;
+    display: inline-flex;
+}
+
+#navbar a:link {
+    text-decoration: none;
+    color:black;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#navbar a:visited {
+    color:black;
+}
+
+#navbar {
+    padding: 6px;
+    font-size: 14px;
+    display: flex;
+}
+
+#navbar #About {
+    padding: 5px;
+    margin: 0 5ps 0 15px;
+}
+
+#navbar #Store {
+    padding: 5px;
+    margin: 0 5px;
+}
+
+#navbar #Gmail {
+    padding: 5px;
+}
+
+#navbar #Images {
+    padding: 5px;
+}
+
+#navbar #Google-apps {
+    padding: 5px;
+}
+
+#navbar #Profile {
+    padding: 5px;
+}
+
+.upper-right {
+    position: relative;
+    display: block;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 42%;
+    margin-top: 145px;
+}
+
+.search {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    width: 85%;
+    padding: 15px 15px 15px 15px;
+}
+
+.search #bi.bi-search {
+    fill: dark;
+    margin-left: 5px;
+    height: 24px;
+    width: 24px;
+    display: flex;
+    margin-top: 12px;
+}
+
+#search-bar {
+    display: flex;
+    border: none;
+    width: 90%;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.HPVvwb {
+    height: 24px;
+    width: 24px;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: rgb(240, 240, 240);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p a {
+    display: block;
+    text-align: center;
+}
+
+footer p a:link {
+    color: gray;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+#foot {
+    color: gray;
+}
+
+#foot ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#foot li {
+    display: inline-flex;
+}
+
+#foot li a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+#foot li a:visited {
+    color: gray;
+}
+
+#foot li:hover {
+    text-decoration: underline;
+} 
