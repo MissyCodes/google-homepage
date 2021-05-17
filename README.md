@@ -1,0 +1,1 @@
+I am building the google home page to practice the HTML and CSS skills I've learned thusfar in my webdev learning process.
