@@ -1,5 +1,8 @@
 body {
     font-family: 'Roboto', arial, sans-serif;
+    margin-left: 0;
+    color: #3c4043;
+    font-size: 14px;
 }
 
 #navbar li {
@@ -10,7 +13,7 @@ body {
 
 #navbar a:link {
     text-decoration: none;
-    color:black;
+    color:#3c4043;
 }
 
 #navbar a:hover {
@@ -18,31 +21,32 @@ body {
 }
 
 #navbar a:visited {
-    color:black;
+    color:#3c4043;
 }
 
 #navbar {
-    padding: 6px;
-    font-size: 14px;
+    padding: 3px 20px;
     display: flex;
 }
 
 #navbar #About {
-    padding: 5px;
+    padding: 5px 10px 5px 5px ;
     margin: 0 5ps 0 15px;
 }
 
 #navbar #Store {
-    padding: 5px;
+    padding: 5px 1102px 5px 5px;
     margin: 0 5px;
 }
 
 #navbar #Gmail {
-    padding: 5px;
+    padding: 5px 6px 5px 5px;
+    font-size: 13px;
 }
 
 #navbar #Images {
     padding: 5px;
+    font-size: 13px;
 }
 
 #navbar #Google-apps {
@@ -62,8 +66,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 42%;
-    margin-top: 145px;
+    width: 270px;
+    margin-top: 101px;
 }
 
 .search {
@@ -73,8 +77,8 @@ body {
     margin-top: 25px;
     border: 1px solid lightgray;
     border-radius: 30px;
-    width: 85%;
-    padding: 15px 15px 15px 15px;
+    width: 550px;
+    padding: 10px 15px 10px 15px;
 }
 
 .search #bi.bi-search {
@@ -94,14 +98,41 @@ body {
     margin-right: 2px;
 }
 
-.HPVvwb {
+.glass {
+    height: 24px;
+    width: 24px;
+}
+
+.mic {
     height: 24px;
     width: 24px;
 }
 
 .buttons {
     display: flex;
+    justify-content: center;
     margin-top: 30px;
+}
+
+.buttons > .push:not(:last-child) {
+    margin-right: 10px;
+}
+
+.push {
+    border: 1px solid #f8f9fa;
+    padding: 10px 18px;
+    background-color: #f8f9fa;
+    border-radius: 4px;
+}
+
+#Google-Search:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 1px rgb(0 0 0 /  10%);
+}
+
+#Lucky:hover {
+    border: 1px solid #dadce0;
+    box-shadow: 0px 1px 1px rgb(0 0 0 /  10%);
 }
 
 footer {
@@ -111,32 +142,21 @@ footer {
     width: 100%;
 }
 
-footer p a {
-    display: block;
-    text-align: center;
-}
-
-footer p a:link {
-    color: gray;
-    text-decoration: none;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-
 #foot {
     color: gray;
+    padding: 1px 35px;
 }
 
 #foot ul {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline-flex;
 }
 
 #foot li {
     display: inline-flex;
+}
+
+#foot > li:not(:last-child) {
+    padding-right: 26px;
 }
 
 #foot li a:link {
@@ -151,3 +171,35 @@ footer p a:hover {
 #foot li:hover {
     text-decoration: underline;
 } 
+
+#How-Search-works {
+    padding-right: 843px;
+}
+
+#Images {
+    padding-right: 20px;
+}
+
+#Profile {
+    font-size: 20px;
+    background-color: pink;
+    border-radius: 50%;
+    width: 24px;
+    color: white;
+}
+
+#Profile:hover {
+    border 2px solid black
+}
+
+.apps {
+    width: 24px;
+    height: 24px;
+    justify-self: center;
+}
+
+.apps:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+}
